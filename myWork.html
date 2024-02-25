@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        body{
+            background-color: #DCF2F1;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 200px 50px 200px 50px 200px 50px  200px 50px;
+            gap: 20px;
+        }
+        .modrian-paints {
+            grid-area: 1/1/2/2;
+            padding-left: 20%;
+        }
+        .modrian {
+            grid-area: 2/1/3/2;
+            background-color: #FFF67E;
+            width: 300px;
+            border-radius: 0 30% 0 30%;
+            margin-left: 20%;
+        }
+        .hotel-design {
+            grid-area: 3/2/4/2;
+          
+        }
+        .hotel {
+            grid-area: 4/2/5/2;
+            background-color: #FFF67E;
+            width: 300px;
+            border-radius: 0 30% 0 30%;
+           
+            
+        }
+        .birthday-invite {
+            grid-area: 5/1/6/2;
+            padding-left: 20%;
+        }
+        .birthday {
+            grid-area: 6/1/7/2;
+            background-color: #FFF67E;
+            width: 300px;
+            border-radius: 0 30% 0 30%;
+            margin-left: 20%;
+        }
+        .movie-ranking {
+            grid-area: 7/2/8/2;
+           
+        }
+        .movie{
+            grid-area: 8/2/9/2;
+            background-color: #FFF67E;
+            width: 300px;
+            border-radius: 0 30% 0 30%;
+           
+        }
+        a {
+            text-decoration: none;
+            color:#0F1035;
+            font-size: 2rem;
+            padding-left: 20%;
+        }
+
+        @media (max-width: 700px) {
+            .body{
+                height: 100%;
+            }
+            .container {
+                display: block;
+
+            }
+            .modrian-paints {
+                padding-bottom: 25px;
+                padding-left: 20%;
+                padding-top: 25px;
+        }
+            .modrian {
+                height: 50px;
+                background-color: #FFF67E;
+                width: 300px;
+                border-radius: 0 30% 0 30%;
+                margin-left: 20%;
+        }
+            .hotel-design {
+                padding-left: 20%;
+                padding-bottom: 25px;
+                padding-top: 25px;
+            }
+            .hotel {
+                background-color: #FFF67E;
+                width: 300px;
+                border-radius: 0 30% 0 30%;
+                margin-left: 20%;
+                height: 50px;
+            }
+            .birthday-invite {
+                padding-bottom: 25px;
+                padding-left: 20%;
+                padding-top: 25px;
+            }
+            .birthday {
+                height: 50px;
+                background-color: #FFF67E;
+                width: 300px;
+                border-radius: 0 30% 0 30%;
+                margin-left: 20%;
+            }
+            .movie-ranking {
+                padding-left: 20%;
+                padding-bottom: 25px;
+                padding-top: 25px;
+            }
+            .movie{
+                
+                background-color: #FFF67E;
+                width: 300px;
+                height: 50px;
+                border-radius: 0 30% 0 30%;
+                margin-left: 20%;
+            }
+            a {
+                text-decoration: none;
+                color:#0F1035;
+                font-size: 2rem;
+                padding-left: 20%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="modrian-paints">
+            <img src="./SCREENSHOT MODRIAN .png" alt="an image for modrian paints" height="200" width="300px">
+        </div>
+        <!---make another div here so we can style the click button-->
+        <div class="modrian">
+            <a href="./monrian paints/index.html"> Click Here</a>
+        </div>
+        <div class="hotel-design">
+            <img src="./image3.png" alt="image of hotel" height="200" width="300px">
+        </div>
+            <div class="hotel">
+            <a href="./hotel design/index.html">Click Here</a>
+        </div>
+        <div class="birthday-invite">
+            <img src="./image7.webp" alt="image of cake" height="200" width="300px">
+        </div>
+            <div class="birthday">
+            <a href="./birthdayinvite.html" >Click Here</a>
+        </div>
+        <div class="movie-ranking">
+            <img src="./image8.jpg" alt="image of forest" height="200"  width="300px">
+        </div>
+            <div class="movie">
+            <a href="./movieranking.html">Click Here</a>
+        </div>
+    </div>
+</body>
+</html>

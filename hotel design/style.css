@@ -1,0 +1,100 @@
+body {
+    background-image: url('./imagehotel3.png'); /* It Replace 'your-image.jpg' with the path to your image file */
+    background-size: cover; /* It ensures that the background image covers the entire body */
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Your preferred font', sans-serif; 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.title2 {
+    display:flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.subheading {
+    display: block;
+   font-size: 40px;
+   position: relative;
+   right: 0px;
+   top:150px;
+   color: #FFF5C2;
+   text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+   font-family: 'Poppins', sans-serif;
+}
+.heading {
+    display: block;
+   position: absolute;
+   top: 250px;
+    font-size: 5rem;
+    color: #FFF5C2;
+   text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+   font-family: 'Poppins', sans-serif;
+}
+.title1 {
+    position: fixed;
+    right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+a {
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: #FFF5C2;
+    font-family: 'Inria Serif', serif;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        height: 100%;
+       
+    }
+    
+    .subheading {
+        display: block;
+       font-size: 2rem;
+       top:50px;
+       
+    }
+    .heading {
+        display: block;
+        font-size: 3rem;
+        padding-left: 50px;
+    }
+    a {
+        font-size: 20px;
+        padding-left: 10px;
+    padding-right: 10px;
+    }
+}
+@media (max-width: 567px) {
+    body {
+        height: 100%;
+    }
+    
+    .subheading {
+        display: block;
+       font-size: 1rem;
+       top:50px;
+       
+    }
+    .heading {
+        display: block;
+        font-size: 2rem;
+        padding-left: 20px;
+    }
+    a {
+        font-size: 20px;
+        padding-left: 10px;
+    padding-right: 10px;
+    }
+}

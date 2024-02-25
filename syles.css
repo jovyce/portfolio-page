@@ -1,0 +1,390 @@
+
+body {
+    background-color: white;
+    margin-left: 20px;
+}
+
+.content {
+    height: 100vh;
+  
+    
+}
+.image1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image-one {
+    border-radius: 50%;
+}
+h1 {
+    text-align: center;
+    color: #7FC7D9;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 5rem;
+}
+.bold1 {
+    color: #365486;
+}
+.introduction-page {
+    background-color: #DCF2F1;
+    height: 75vh;
+   text-align: center;
+   font-size: 2rem;
+}
+.paragraph1 {
+    width: 400px;
+    height: 400px;
+    padding-left: 100px;
+}
+.name {
+    padding-top: 70px;
+    
+    color: #0F1035;
+}
+.image-two {
+    float: right;
+    height: 60vh;
+    width:350px;
+    margin-right: 100px;
+    margin-top: 50px;
+    border: 10px solid #365486;
+    border-radius: 25px;
+}
+
+.first-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 400px;
+   margin-top:100px;
+   gap:50px;
+ 
+}
+.My-skills {
+    grid-area: 2/ 2/ 2/2;
+    background-color: #7FC7D9;
+    padding-left: 50px;
+    border-radius: 20px 0px 20px 0px;
+}
+.My-education {
+    margin-left: 20px;
+    background-color: #0F1035;
+    padding-left: 50px;
+    border-radius: 0px 20px 0px 20px;
+}
+.paragraph2 {
+    text-align: center;
+}
+.one{
+    font-size: 3rem;
+    color: #DCF2F1;
+}
+.two {
+    font-size: 2rem;
+    color: #DCF2F1;
+}
+.three {
+    font-size: 3rem;
+    color: #365486;
+}
+.four {
+    font-size: 2rem;
+    color: #365486;
+} 
+.my-work {
+    background-color: #DCF2F1;
+    height: 350px;
+    margin-top: 100px;
+   
+}
+.myWork {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #365486;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 4rem;
+}
+.myWorkDiv {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.my-work1 {
+    text-decoration: none;
+    color: #DCF2F1;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1rem;
+}
+.first-button {
+    background-color: #365486;
+    height: 50px;
+    border-radius: 30%;
+
+}
+.service{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    margin-top: 100px;
+}
+h2 {
+    text-align: center;
+    color: #365486;
+    font-size: 3rem;
+}
+.firstService{
+    width: 200px;
+    height: 150px;
+    background-color: #365486;
+    margin-right: 10px;
+    color: #DCF2F1;
+    text-align: center;
+    padding-top: 50px;
+} 
+.secondService {
+    width: 200px;
+    height: 150px;
+    background-color: #365486;
+    margin-right: 10px;
+    color: #DCF2F1;
+    text-align: center;
+    padding-top: 50px;
+}
+.thirdService {
+    width: 200px;
+    height: 150px;
+    background-color: #365486;
+    color: #DCF2F1;
+    text-align: center;
+    padding-top: 50px;
+}
+footer {
+    
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin-top: 100px;
+    margin-left: 0;
+    background-color: #0F1035;
+    height: 50vh;
+    color: #DCF2F1;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.footer-content p {
+    margin: 0;
+    text-align: left;
+    font-size: 2rem;
+}
+.email {
+    text-decoration: none;
+    color: aquamarine;
+}
+@media only screen and  (max-width: 700px) {
+    .introduction-page {
+        background-color: #DCF2F1;
+        height: 100vh;
+       text-align: center;
+       font-size: 25px;
+       display: block;
+       align-items: center;
+       width:100%;
+    }
+    .paragraph1 {
+        width: 400px;
+        height: 400px;
+        padding-left: 5px;
+        padding-top: 300px;
+    }
+    .name {
+        margin: 0 10px;
+        color: #0F1035;
+        text-align: left;
+    }
+    .image-two {
+        height: 300px;
+        width:350px;
+        margin-top: 20px;
+        border: 10px solid #365486;
+        border-radius: 25px;
+        position: relative;
+        left: 20%;
+    }
+    
+    .first-grid{
+        display: block;
+        width:100%;
+        height: 110vh;
+        margin-top:50px;
+       font-size: 20px;
+        width: 100%;
+    }
+    .My-skills {
+        width: 400px;
+        height: 300px;
+        margin-top:30px;
+        background-color: #7FC7D9;
+        padding-left: 50px;
+        border-radius: 20px 0px 20px 0px;
+        margin-left: 10px;
+        height: 300px;
+    }
+    .My-education {
+        width:400px;
+        margin-top:30px;
+        margin-left: 10px;
+        background-color: #0F1035;
+        padding-left: 50px;
+        border-radius: 0px 20px 0px 20px;
+    }
+    .paragraph2 {
+       padding-top: 50px;
+        width:100%;
+        height: 300px;
+    }
+    .paragraph3 {
+        padding-top: 40px;
+    }
+    .one{
+        text-align: left;
+        font-size: 2rem;
+        color: #DCF2F1;
+    }
+    .two {
+        text-align: left;
+        font-size: 1em;
+        color: #DCF2F1;
+    }
+    .three {
+        text-align: left;
+        font-size: 2rem;
+        color: #365486;
+    }
+    .four {
+        font-size:1em;
+        color: #365486;
+    } 
+    
+    
+    .service{
+        display: block;
+        height: 110vh;
+        margin-top: 10px;
+        position: relative;
+        left: 26%;
+    }
+    h2 {
+        text-align: center;
+        color: #365486;
+        font-size: 3rem;
+    }
+    .firstService{
+        width: 200px;
+        height: 150px;
+        background-color: #365486;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        color: #DCF2F1;
+        text-align: center;
+        padding-top: 50px;
+    } 
+    .secondService {
+        width: 200px;
+        height: 150px;
+        background-color: #365486;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        color: #DCF2F1;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .thirdService {
+        width: 200px;
+        height: 150px;
+        background-color: #365486;
+        color: #DCF2F1;
+        text-align: center;
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (min-width: 701px) and (max-width: 1100px)  {
+    .introduction-page {
+        background-color: #DCF2F1;
+        height: 75vh;
+        text-align: center;
+        font-size: 25px;
+      
+    }
+    .paragraph1 {
+       padding: 10px 10px 0 10px;
+    }
+    .name {
+
+        color: #0F1035;
+    }
+    .image-two {
+        float: right;
+        width:300px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+        border: 10px solid #365486;
+        border-radius: 25px;
+    }
+    
+    .first-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        margin-top:100px;
+        gap:50px;
+        
+    }
+    .My-skills {
+        grid-area: 2/ 2/ 2/2;
+        background-color: #7FC7D9;
+        padding-left: 50px;
+        border-radius: 20px 0px 20px 0px;
+    }
+    .My-education {
+        margin-left: 20px;
+        background-color: #0F1035;
+        padding-left: 50px;
+        border-radius: 0px 20px 0px 20px;
+    }
+    .paragraph2 {
+        text-align: center;
+    }
+    .one{
+        text-align: left;
+        font-size: 2rem;
+        color: #DCF2F1;
+    }
+    .two {
+        text-align: left;
+        font-size: 1em;
+        color: #DCF2F1;
+    }
+    .three {
+        text-align: left;
+        font-size: 2rem;
+        color: #365486;
+    }
+    .four {
+        font-size:1em;
+        color: #365486;
+    } 
+}

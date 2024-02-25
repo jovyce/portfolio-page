@@ -1,0 +1,89 @@
+body {
+    background-image: url('../imagehotel4.jpg'); /* Replace 'your-image.jpg' with the path to your image file */
+    background-size: cover; /* This property ensures that the background image covers the entire body */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: 'Your preferred font', sans-serif; /* Add your preferred font */
+    /* Add any additional styling for your body here */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.title2 {
+    display:flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.subheading {
+    display: block;
+   font-size: 40px;
+   position: relative;
+   right: 0px;
+   top:150px;
+   color: #FFF5C2;
+   text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+}
+.heading {
+    display: block;
+   position: absolute;
+   top: 250px;
+    font-size: 5rem;
+    color: #FFF5C2;
+   text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+}
+.title1 {
+    position: fixed;
+    right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+a {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: #FFF5C2;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        height: 100%;
+    }
+    
+    .subheading {
+        display: block;
+       font-size: 2rem;
+       top:50px;
+       
+    }
+    .heading {
+        display: block;
+        font-size: 3rem;
+        padding-left: 50px;
+    }
+    
+}
+@media (max-width: 567px) {
+    body {
+        height: 100%;
+    }
+    
+    .subheading {
+        display: block;
+       font-size: 1rem;
+       top:50px;
+       
+    }
+    .heading {
+        display: block;
+        font-size: 2rem;
+        padding-left: 20px;
+        
+    }
+    
+}

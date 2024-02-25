@@ -1,0 +1,45 @@
+body {
+    background-image: url('../imagehotel1.jpg'); /* Replace 'your-image.jpg' with the path to your image file */
+    background-size: cover; /* This property ensures that the background image covers the entire body */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: 'Your preferred font', sans-serif; /* Add your preferred font */
+    /* Add any additional styling for your body here */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+   padding-top: 100px;
+}
+.blur-background{
+    width: 500px;
+    height: 50vh;
+  
+    background: linear-gradient(to bottom, #ffffff, #5FB0DB); 
+   padding-left: 10px;
+   text-align: start;
+   padding-top: 50px;
+}
+span {
+    font-weight: 1000;
+}
+.content {
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    font-family: 'Inria Serif', serif;
+}
+@media (max-width: 600px){
+    .blur-background{
+        width: 300px;
+        height: 50vh;
+        
+    }
+} 
